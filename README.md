@@ -1,4 +1,4 @@
-# coding-challenge-webapp
+# coding-challenge
 
 ## Setup
 
