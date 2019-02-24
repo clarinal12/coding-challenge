@@ -1,7 +1,5 @@
 # coding-challenge-webapp
 
-> A Vue.js project
-
 ## Setup
 
 ```bash
