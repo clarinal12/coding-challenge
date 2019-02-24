@@ -52,10 +52,10 @@
             </thead>
             <tbody>
               <tr v-for="(passer, index) in passers" :key="index">
-                <td>{{passer.name}}</td>
-                <td>{{passer.campus}}</td>
-                <td>{{passer.school}}</td>
-                <td>{{passer.division}}</td>
+                <td>{{passer.name.toUpperCase()}}</td>
+                <td>{{passer.campus.toUpperCase()}}</td>
+                <td>{{passer.school.toUpperCase()}}</td>
+                <td>{{passer.division.toUpperCase()}}</td>
               </tr>
               <tr v-if="passers.length == 0 && !fetchingPassers">
                 <td colspan="4" style="text-align:center">

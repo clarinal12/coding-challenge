@@ -14,7 +14,7 @@
             </thead>
             <tbody>
               <tr v-for="(result, index) in results" :key="index">
-                <td>{{result.school}}</td>
+                <td>{{result.school.toUpperCase()}}</td>
                 <td>{{result.passers}}</td>
               </tr>
               <tr v-if="fetchingResults">
